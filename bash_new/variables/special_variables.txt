@@ -1,0 +1,28 @@
+Variable                            Description
+$0                                  Returns file name of the script
+$n                                  Command line arguments, n is a value from 1-9
+S# I                                Returns total number of arguments
+$?                                  Returns the exit status of the last command
+$$                                  Returns the process ID of the script
+shift                               Number of arguments are reduced each time as the shift command executes
+
+
+
+
+
+
+
+• $n - Sequence of arguments
+• $# - To check count (number of arguments) in script.
+• $* - It stores complete set of positional parameter in a single string
+• $@ - Quoted string treated as separate arguments.
+• $? - exit status of command (0-success,1-general error)
+• $$ - Check PID of current shell.
+• $! - check PID of last background Job
+
+
+
+
+
+
+
