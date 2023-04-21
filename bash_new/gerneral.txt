@@ -1,0 +1,4 @@
+set -vx by this script will run in debug mode
+
+v is for verbose mode
+x is for execute
