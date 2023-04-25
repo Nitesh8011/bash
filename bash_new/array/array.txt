@@ -15,3 +15,10 @@ Access Element of Array
     ${array_name[*]}
 3)  ${array_name[@]:start_index} - access all the elements of array starts from given index
 4)  ${array_name[@]:start_index:no_of_element} - access given number of elements from given start index
+
+
+Length of array
+
+1) echo ${#Unix}  #Number of characters in the first element of the array
+2) echo ${#Unix[1]}  #Number of characters in the other element of the array
+   echo ${#Unix[2]}
