@@ -13,10 +13,3 @@ shift                               Number of arguments are reduced each time as
 • $? - exit status of command (0-success,1-general error)
 • $$ - Check PID of current shell.
 • $! - check PID of last background Job
-
-
-
-
-
-
-

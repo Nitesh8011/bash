@@ -1,0 +1,11 @@
+Differnce between for, while and until
+
+for loop - For loop is used when the number of iterations is already known
+while loop - While loop is used when the number of iterations is already unknown
+until loop - It will run until the condition become true, unlike while in which it will run until the condition is true.
+
+
+Loop control
+
+break - terminate the entire loop
+continue - skip a iteration

@@ -1,0 +1,24 @@
+number=3.14159
+printf "%.2f\n" $number
+
+or 
+
+result=$(printf "%.2f\n" $number)
+echo $result
+
+The %f format specifier is used to indicate that the argument is a floating-point number. 
+The 0.2 precision specifier indicates that we want to display two digits after the decimal point.
+
+
+move easy way
+scale for no od decimals 
+bc to solve an arbitrary number of digits and can perform various arithmetic operations
+echo "scale=3; (-105.5*7+50*3)/20 + (19^2)/7" | bc
+
+
+
+for round and executing large arithmetic
+#!/bin/bash
+read number
+rounded=$(printf "%.3f" $(echo "scale=4; $number/1" | bc))
+echo $rounded

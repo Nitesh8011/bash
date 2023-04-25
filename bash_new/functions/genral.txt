@@ -1,0 +1,16 @@
+shell function help in:
+
+Break the code into smaller parts
+Code reuse
+
+Defining a function:
+function_name(){
+    statement(s)
+}
+
+calling a function:
+function_name <arguments>
+
+1) Passing parameters: function_name<param1><param2>
+2) These parameters would be available as $1 $2 so on inside the function
+3) To return a value from the function use, return<value>

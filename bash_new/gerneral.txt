@@ -1,4 +1,13 @@
-set -vx by this script will run in debug mode
+> - write the output to a file
+>> - Append the output into the file
 
-v is for verbose mode
-x is for execute
+script.sh > /dev/null - discard the output
+
+script.sh 1> /dev/null - represt console output (on console it will show error)
+script.sh 2> /dev/null - represent error (on console it will show non-error)
+
+nohup <scrip_file.sh>
+to kill nohup - kill -9 PID
+
+Cheat site
+https://devhints.io/bash
