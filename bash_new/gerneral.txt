@@ -11,3 +11,5 @@ to kill nohup - kill -9 PID
 
 Cheat site
 https://devhints.io/bash
+
+line is also a concept in bash..by this it will read file line by line
