@@ -1,0 +1,11 @@
+#In Bash, the cut command is used to extract sections of a file or a line of text.
+#The -c option is used with the cut command to specify the characters that should be extracted from each line of text.
+
+#cut in bash
+cut -c 2
+
+#cut two number
+cut -c 2,7
+
+#Cut in range 
+cut -c 2-7
