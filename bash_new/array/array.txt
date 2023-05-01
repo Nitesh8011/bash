@@ -7,6 +7,8 @@ Define Array
 
 3)  array_name([index]=value1 [index]=value2 [index]=value3...)
 
+4) declare -a arrayname=(element1 element2 element3)
+
 
 Access Element of Array
 
@@ -22,3 +24,7 @@ Length of array
 1) echo ${#Unix}  #Number of characters in the first element of the array
 2) echo ${#Unix[1]}  #Number of characters in the other element of the array
    echo ${#Unix[2]}
+
+
+
+https://www.thegeekstuff.com/2010/06/bash-array-tutorial/
