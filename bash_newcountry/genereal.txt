@@ -9,3 +9,24 @@ cut -c 2,7
 
 #Cut in range 
 cut -c 2-7
+
+#for full line to execute
+cut -c 13-
+
+#The -f option means the first. So this command prints the first 1 to 3 lines substring from the input
+cut -f 1-3
+
+#The -d option specifies the delimiter to use, in this case ' '. The -f option specifies the field to extract, in this case the 4th field.
+cut -d " " -f4
+cut -d " " -f1-3
+
+#to show first 20line repetative
+while read line
+do
+    echo $line >> file.txt
+done
+
+head -n 20 < file.txt
+
+
+
