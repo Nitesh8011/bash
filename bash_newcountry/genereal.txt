@@ -25,8 +25,21 @@ while read line
 do
     echo $line >> file.txt
 done
-
 head -n 20 < file.txt
 
+#sed is used to print the line and p is for the print the selected line
+sed -n '12,22p'
+
+#to display last 20line & 20character
+tail -n 20 & tail -c 20
+
+#tr used for exchange & delimite
+tr "()" "[]" & tr -d [a-z]
+
+#remove multiple space with one
+while read line
+do
+    echo $line | tr "  " " "
+done
 
 
