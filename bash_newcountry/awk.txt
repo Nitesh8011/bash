@@ -1,0 +1,31 @@
+Question
+ajay manager account 45000
+sunil clerk account 25000
+varun manager sales 50000
+amit manager account 47000
+tarun peon sales 15000
+deepak clerk sales 23000
+sunil peon sales 13000
+satvik director purchase 80000 
+
+#to print with contain manager
+$ awk '/manager/ {print}' employee.txt 
+
+#to pring 1 abd 4th field e.g. name and amount
+$ awk '{print $1,$4}' employee.txt 
+
+Built-In Variables In Awk
+-------------------------
+Awk’s built-in variables include the field variables—$1, $2, $3, and so on ($0 is the entire line) — that break a line of text into individual words or pieces called fields. 
+
+1. NR: NR command keeps a current count of the number of input records. Remember that records are usually lines. Awk command performs the 
+   pattern/action statements once for each record in a file. 
+2. NF: NF command keeps a count of the number of fields within the current input record. 
+3. FS: FS command contains the field separator character which is used to divide fields on the input line. The default is “white space”, 
+   meaning space and tab characters. FS can be reassigned to another character (typically in BEGIN) to change the field separator. 
+4. RS: RS command stores the current record separator character. Since, by default, an input line is the input record, 
+   the default record separator character is a newline. 
+5. OFS: OFS command stores the output field separator, which separates the fields when Awk prints them. The default is a blank space. 
+   Whenever print has several parameters separated with commas, it will print the value of OFS in between each parameter. 
+6. ORS: ORS command stores the output record separator, which separates the output lines when Awk prints them. The default is a newline character. 
+   print automatically outputs the contents of ORS at the end of whatever it is given to print. 
