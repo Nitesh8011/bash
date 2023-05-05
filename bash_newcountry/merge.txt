@@ -1,0 +1,7 @@
+
+In Bash, the paste command is used to merge lines from multiple files or input sources. 
+The -s option is used to merge all lines into a single line, separated by a delimiter.
+paste -s
+
+to print three field in one line with delimiter ;
+paste - - - -d $';'
