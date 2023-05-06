@@ -11,3 +11,8 @@ Avoid comparing the first N fields (using the -f option).
 
 #to make upper into lower and do vise versa for lower to upper
 tr '[:upper:]' '[:lower:]' < input.txt > output.txt
+
+
+#There are N integers in an array A. All but one integer occur in pairs. Your task is to find the number that occurs only once.
+(read count
+    tr ' ' $'\n' | sort | uniq -u)
