@@ -17,7 +17,7 @@ replace 2nd unix with linux
 $sed 's/unix/linux/g' geekfile.txt
 replace all unix with linux
 
-$sed 's/unix/linux/g' geekfile.txt
+$sed 's/unix/linux/3g' geekfile.txt
 replace every 3rd unix with linux
 
 $sed '3 s/unix/linux/' geekfile.txt
