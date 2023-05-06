@@ -17,7 +17,8 @@ Access Element of Array
     ${array_name[*]}
 3)  ${array_name[@]:start_index} - access all the elements of array starts from given index
 4)  ${array_name[@]:start_index:no_of_element} - access given number of elements from given start index
-
+5)  readarray x - read all array in multiple line
+    echo ${#x[@]}
 
 Length of array
 
