@@ -1,0 +1,13 @@
+#to show unique character
+Uniq show all charcter once
+-c count of unique 
+-d to show duplicate 
+-u to show unique 
+
+Limit comparison only to the first N characters (using the -w option).
+Avoid comparing the first N characters (using the -s option).
+Ignore variations in case between lines (using the -i option).
+Avoid comparing the first N fields (using the -f option).
+
+#to make upper into lower and do vise versa for lower to upper
+tr '[:upper:]' '[:lower:]' < input.txt > output.txt
