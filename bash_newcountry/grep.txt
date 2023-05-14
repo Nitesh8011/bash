@@ -1,0 +1,22 @@
+1. Search for the given string in a single file
+$ grep "this" demo_file
+
+2. Checking for the given string in multiple files.
+$ grep "this" demo_*
+
+3. Case insensitive search using grep -i
+$ grep -i "the" demo_file
+
+4. Match regular expression in files
+$ grep "lines.*empty" demo_file
+This is a very powerful feature, if you can use use regular expression effectively. In the following example, it searches for all the pattern that starts with “lines” and 
+ends with “empty” with anything in-between. i.e To search “lines[anything in-between]empty” in the demo_file.
+
+Regex
+-> ? The preceding item is optional and matched at most once.
+-> * The preceding item will be matched zero or more times.
+-> + The preceding item will be matched one or more times.
+-> {n} The preceding item is matched exactly n times.
+-> {n,} The preceding item is matched n or more times.
+-> {,m} The preceding item is matched at most m times.
+-> {n,m} The preceding item is matched at least n times, but not more than m times.
