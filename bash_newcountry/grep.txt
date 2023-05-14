@@ -1,3 +1,5 @@
+link --> https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+
 1. Search for the given string in a single file
 $ grep "this" demo_file
 
@@ -20,3 +22,41 @@ Regex
 -> {n,} The preceding item is matched n or more times.
 -> {,m} The preceding item is matched at most m times.
 -> {n,m} The preceding item is matched at least n times, but not more than m times.
+
+5. Checking for full words, not for sub-strings
+$ grep -i "is" demo_file
+
+6. Use w for exactly same string
+$ grep -iw "is" demo_file
+
+7. Highlighting the search using GREP_OPTIONS
+$ export GREP_OPTIONS='--color=auto' GREP_COLOR='100;8'
+$ grep this demo_file
+
+8. Searching in all files recursively using grep -r
+$ grep -r "ramesh" *
+
+9. Invert match using grep -v
+$ grep -v "go" demo_text
+show all the line whihc doesn't contain "go"
+
+10. display the lines which does not matches all the given pattern.
+Exmaple-
+        $ cat test-file.txt
+        a
+        b
+        c
+        d
+        
+        $ grep -v -e "a" -e "b" -e "c" test-file.txt
+        d
+       
+11. Counting the number of matches using grep -c
+$ grep -c "go" demo_text (how many line matched)
+$ grep -v -c this demo_file (how many line not matched)
+
+12. Display only the file names which matches the given pattern using grep -l
+$ grep -l this demo_*
+
+13. Show line number while displaying the output using grep -n
+$ grep -n "go" demo_text
