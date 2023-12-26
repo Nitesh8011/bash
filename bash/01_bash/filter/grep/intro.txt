@@ -1,0 +1,24 @@
+GREP - Global Regular Expression Print
+
+Grep command search for a particular string/keyword from a file and print lines matching a pattern.
+
+It check line by line and print lines matching given pattern.
+
+
+We can use grep anywhere like with files,searching for files and directory
+
+-i --> ignore case sentivity
+-v --> opposite
+-c --> count
+-w --> exact match
+-n --> line number
+-h --> to hide file name (if searching in multuple files)
+-e --> to search multiple keywords
+-l --> to show file name only
+-f --> filename to search multiple keyword from external file
+-R --> recurrsive (to search in directory)
+-q --> to search but don't wanna print on terminal
+-s --> to suppress error message
+
+
+Use egrep to search multiple word in file, can use instead of -e with grep

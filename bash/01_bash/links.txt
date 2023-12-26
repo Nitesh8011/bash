@@ -1,0 +1,5 @@
+https://github.com/Md-MamunAbdulKayum/shell-scripting-examples/
+
+https://github.com/PacktPublishing/Complete-Bash-Shell-Scripting-/blob/master/
+
+https://github.com/jayant2014/Bash-Scripting/blob/master/

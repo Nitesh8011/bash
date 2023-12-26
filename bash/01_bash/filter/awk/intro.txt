@@ -1,0 +1,14 @@
+AWK
+
+        FIELDS/column
+        f1  f2 f3   f4
+row1    this is line one
+row2    this is line second
+
+
+Terms used in AWK
+
+NR - no. of record/row
+NF - no. of fields
+$0 - print everything
+$1,$2 - field no.

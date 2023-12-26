@@ -1,0 +1,11 @@
+w - write
+p - print
+a - append
+c - change
+i - insert
+q - quit
+e - expression
+g - global
+s - substitution
+$ - last line
+-n - number of line

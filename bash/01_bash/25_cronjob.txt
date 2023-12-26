@@ -1,0 +1,24 @@
+for scheduling only one time,use AT
+
+at 12:09 PM
+    <Your command>
+ctrl+D
+
+atq to check scheduled job
+atrm to remove job
+
+x----x-------x------x-------x
+
+for repetative jobs
+
+crontab -l ---> to list down all cronjobs
+crontab -e ---> to add new cronjob
+
+* * * * *
+1st star is mintues (0-59)
+2nd is for hours (0-23)
+3rd for days of month (1-31)
+4th for month (1-12)
+5th is for days of week (0-6)(sunday=0)
+
+checkout https://crontab.guru/

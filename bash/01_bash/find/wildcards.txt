@@ -1,0 +1,21 @@
+* - zero to more characters
+? - single characters
+[] - range of characters
+^ - beginning of the line
+$ - end of the line
+
+
+#make files which text name from 1 to 10 like text1,text2..
+touch text{1..10}
+
+to list done all the files which contain any characters before 123
+ls -l ?123
+
+to list done all the files which contain one characters between tes and t
+ls -l te?t
+
+to list done all the files which contain a,b or c characters before 123
+ls -l [abc]123
+
+to list done all the files which contain number 0-9
+ls -l *[0-9]*
