@@ -1,10 +1,10 @@
 #!/bin/bash
 
-source=https://192.168.10.35
+source=https://source_ip
 source_user=admin
 source_pswd=admin
 
-destination=https://192.168.10.35
+destination=https://destination_ip
 dest_user=admin
 dest_pswd=admin
 

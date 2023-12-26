@@ -3,10 +3,10 @@
 read -p "Enter TR number: " number
 read -p "Enter extension: " extension 
 
-DE1=192.168.10.240
-NQI=192.168.10.241
-S4=192.168.10.242
-password=12345
+DE1=DE1_IP
+NQI=NQI_IP
+S4=S4_IP
+password=password
 file1=K$number.$extension
 file2=R$number.$extension
 

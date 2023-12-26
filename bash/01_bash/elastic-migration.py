@@ -120,7 +120,6 @@ with open(file_path, 'r') as output_file:
         data['source'] = source
         data['dest'] = dest
 
-        # reindex_url = "https://192.168.10.35:31455/_reindex"
         try:
             reindex = requests.post(dest_url + "_reindex",  verify=False, auth = HTTPBasicAuth('elastic-internal', target_password), json=data, timeout=2400)
             if reindex.status_code == 200:
